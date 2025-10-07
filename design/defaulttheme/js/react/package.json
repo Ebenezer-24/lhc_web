@@ -1,0 +1,43 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-proposal-decorators": "^7.27.1",
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/runtime": "^7.25.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "axios": "^1.7.9",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "core-js": "^3.39.0",
+    "custom-event-polyfill": "^1.0.7",
+    "html-webpack-plugin": "^5.6.3",
+    "immutable": "^4.3.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.2.0",
+    "redux-thunk": "^3.1.0",
+    "shortid": "^2.2.16",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "wolfy87-eventemitter": "^5.2.9"
+  }
+}

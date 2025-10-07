@@ -1,0 +1,8 @@
+node_modules
+bower_components
+
+composer.phar
+post_deploy.sh
+translations/trans/
+cache/default.log
+/.idea/
